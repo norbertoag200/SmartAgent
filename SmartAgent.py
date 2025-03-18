@@ -55,7 +55,7 @@ class SmartAgent(BaseAgent):
             #if perception[0,1,2,3]==4:
                 #self.state="Dis++++++parar"
             #self.state="EstadoACambiar"
-            move(self, perception)
+            self.move(perception)
 
         elif self.state == "Disparar":
             
